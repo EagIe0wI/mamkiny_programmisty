@@ -2,6 +2,9 @@
   "name": "mamkiny_programmisty",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "askname": "bin/askName.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +14,8 @@
   "type": "module",
   "devDependencies": {
     "eslint": "^8.42.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }

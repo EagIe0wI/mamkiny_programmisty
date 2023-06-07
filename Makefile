@@ -6,3 +6,6 @@ publish:
 
 lint:
 	npx eslint .
+
+askname:
+	node bin/askName.js
