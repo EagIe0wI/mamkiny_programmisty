@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import countingEnding from '../src/cli.js';
+import countingEnding from '../src/countingEnding.js';
 
-countingEnding();
+const arr = ['цветок', 'гриб', 'дерево'];
+countingEnding(arr);

@@ -9,3 +9,6 @@ lint:
 
 askname:
 	node bin/askName.js
+
+countingending:
+	node bin/countingEnding.js
