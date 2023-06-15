@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.quiz {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.quiz-results {
+    display: none;
+}
