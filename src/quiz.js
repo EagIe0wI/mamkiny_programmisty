@@ -58,13 +58,10 @@ let localResults = {};
       ]
     }  
    ];
- 
    
    const renderQuestions = (index) => {
 
-
     questions.dataset.stepNow = index;
-
 
     const renderAnswers = () => data[index].answers
         .map((answer) => `
@@ -77,7 +74,6 @@ let localResults = {};
         `)
       .join('');
 
-
     questions.innerHTML = `
     <div class="quiz-questions-item">
     <div class="quiz-questions-item__question">${data[index].question}</div>
@@ -87,7 +83,6 @@ let localResults = {};
    };
  
    const renderResults = () => {};
-
 
    quiz.addEventListener('change', (event) => {
 // логика ответов
@@ -101,9 +96,7 @@ let localResults = {};
 // кнопка вот мой ответ
     if (event.target.classList.contains('button-next')) {
 
-
         renderQuestions(Number(questions.dataset.stepNow + 1));
-
 
         buttonNext.disabled = true;
     }
