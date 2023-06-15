@@ -56,7 +56,6 @@ header{
 }
 
 .button{
-
     appearance: auto;
     text-rendering: auto;
     letter-spacing: normal;
@@ -78,6 +77,7 @@ header{
 }
 
 .btn{
+    margin-top: 200px;
     --bs-btn-padding-x: 0.75rem;
     --bs-btn-padding-y: 0.375rem;
     --bs-btn-font-family: ;
