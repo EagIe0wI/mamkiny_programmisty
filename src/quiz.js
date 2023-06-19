@@ -1,7 +1,7 @@
-let correctAnswer = 0;
+var correctAnswer = 3;
  
 document.getElementById("check").onclick = function() {
-  let answer = document.getElementById("form").querySelectorAll('[name="answer-1"]:checked');
+  var answer = document.getElementById("form").querySelectorAll('[name="answer-1"]:checked');
   if (!answer.length) {
     answer = 0;
   } else {
@@ -14,4 +14,5 @@ document.getElementById("check").onclick = function() {
     document.write('Увы и ах! Мимо! Но попытка не пытка. Попробуем ещё раз! Не промахнись, путник!');
   }
 };
+
 
