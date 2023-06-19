@@ -2,5 +2,5 @@
 
 import countingEnding from '../src/countingEnding.js';
 
-const arr = ['цветок', 'гриб', 'дерево'];
-countingEnding(arr, 'гриб');
+const arr = ['дефзнач1', 'дефзнач2', 'дефзнач3'];
+countingEnding(arr, 'дефзнач2');
