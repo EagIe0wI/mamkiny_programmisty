@@ -3,4 +3,4 @@
 import countingEnding from '../src/countingEnding.js';
 
 const arr = ['цветок', 'гриб', 'дерево'];
-countingEnding(arr);
+countingEnding(arr, 'гриб');
