@@ -6,41 +6,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <div class="quiz" id="quiz">
-        <div class="quiz-questions" id="questions" data-current-step="0"></div>
-
-        <div class="quiz-questions-item"></div>
-
-        <div class="quiz-results" id="results">
-         <div class="quiz-results-item">
-            <div class="quiz-results-item__questions">Что за место, где вы точно никогда не прочтете свое имя?</div>
-            <ul class="quiz-results-item__answer">
-                <li>
-                    <label>
-                        <input type="radio" name="q1">
-                        В списках Forbes
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" name="q1">
-                        В зеркале
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="radio" name="q1">
-                        Ваше надгробие
-                    </label>
-                </li>
-            </ul>
-         </div>
+    <div class="question">
+        <input type="hidden" name="question" class="question">
+        <span>Что за место, где вы точно никогда не прочтете свое имя?</span>
+      </div>
+    <form action="" id="form">
+        <div class="answer-wrapper">
+          <input type="radio" name="answer-1" class="answer" data-number="1">
+          <span>В списках Forbes</span>
         </div>
-    <div class="quiz-coltrols">
-        <button class="button-next" id="button-next" disabled>Вот мой ответ.</button>
-    </div>
-
+        <div class="answer-wrapper">
+          <input type="radio" name="answer-1" class="answer" data-number="2">
+          <span>В зеркале</span>
+        </div>
+        <div class="answer-wrapper">
+          <input type="radio" name="answer-1" class="answer" data-number="3">
+          <span>Ваше надгробие</span>
+        </div>
+        <input type="button" id="check" value="Вот мой ответ">
+      </form>
     <script src="../src/quiz.js"></script>
+    
+
 
 </body>
 </html>
+
