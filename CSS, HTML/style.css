@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box{
+    background: url(../img/13babf93-2c61-4e6c-baec-509c467345df.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .top_menu{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.top_menu li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.top_menu a{
+    margin-top: 10px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+.logo h1{
+    font-family: Arial;
+    font-size: 30px;
+    vertical-align: middle;
+    color: white;
+}
+.top_menu a:hover{
+    color: black;
+}
+.top_menu{
+    margin-top: 10px;
+}
