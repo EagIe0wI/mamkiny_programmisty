@@ -126,11 +126,18 @@ header{
 
 .game-board{
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', cursive, sans-serif;
     display: none;
     background-color: #67533C;
     width: 815px;
-    height: 212px;
+    height: 150px;
     top: 801px;
     left: 437px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -200px;
+}
+
+#text{
+    font-family: 'Trebuchet MS', cursive, sans-serif;
+    color: antiquewhite;
 }
