@@ -123,3 +123,14 @@ header{
     vertical-align: middle;
     color: white;
 }
+
+.game-board{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', cursive, sans-serif;
+    display: none;
+    background-color: #67533C;
+    width: 815px;
+    height: 212px;
+    top: 801px;
+    left: 437px;
+}
