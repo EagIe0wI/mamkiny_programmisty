@@ -141,3 +141,15 @@ header{
     font-family: 'Trebuchet MS', cursive, sans-serif;
     color: antiquewhite;
 }
+
+.question{
+    display: none;
+}
+
+.answer-wrapper{
+    display: none;
+}
+
+#check{
+    display: none;
+}
