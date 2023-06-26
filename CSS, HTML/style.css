@@ -140,6 +140,10 @@ header{
 #text{
     font-family: 'Trebuchet MS', cursive, sans-serif;
     color: antiquewhite;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 1px; /* исправить */
 }
 
 .question{
