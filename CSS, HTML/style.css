@@ -167,6 +167,7 @@ header{
     display: none;
 }
 .imagine{
+    background: url(../img/sticker.jpg);
     width: 318px;
     height: 362px;
     top: 249px;
