@@ -166,3 +166,10 @@ header{
     color: antiquewhite;
     display: none;
 }
+img {
+    background-image: url(../img/sticker.jpg);
+    width: 318px;
+    height: 362px;
+    top: 249px;
+    left: 59px;
+}
