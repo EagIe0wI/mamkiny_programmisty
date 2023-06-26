@@ -166,10 +166,10 @@ header{
     color: antiquewhite;
     display: none;
 }
-img {
-    background-image: url(../img/sticker.jpg);
+.imagine{
     width: 318px;
     height: 362px;
     top: 249px;
     left: 59px;
+    display: block;
 }
