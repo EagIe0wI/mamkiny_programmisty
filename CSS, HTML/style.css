@@ -157,3 +157,12 @@ header{
 #check{
     display: none;
 }
+
+.form-YesOrNo{
+    padding-left: 20px;
+    top: 801px;
+    left: 437px;
+    align-items: center;
+    color: antiquewhite;
+    display: none;
+}
