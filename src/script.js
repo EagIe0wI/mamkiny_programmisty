@@ -20,12 +20,28 @@ const changeText = () => {
        
        document.querySelector('.text').textContent = strings[stage][sentence];
        sentence += 1;
-       if (sentence === 5) {
-        document.querySelector('.text').textContent = strings[strings.length - 1];
+       if (sentence === 9) {
+        document.querySelector('.text').textContent = strings[stage][9];
         firstFork.style.display = 'block';
-    }
-       });
-    }
+        }
+     });
+     let correct = 1;
+     document.getElementById("checkYesOrNo").onclick = function() {
+        let answer = document.getElementById("formYesOrNo").querySelectorAll('[name="answer-1YesOrNo"]:checked');
+        if (!answer.length) {
+            answer = 0;
+           } else {
+            answer = +answer[0].getAttribute('data-number');
+           }
+    
+           if (correct === answer) {
+            
+           } else {
+            
+        }
+       };
+     }
+    
 
 
 
